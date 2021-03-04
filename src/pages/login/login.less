@@ -1,0 +1,46 @@
+.login{
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/bg.jpg');
+    background-size: 100% 100%;
+
+   .login-header{
+    display:flex; //弹性布局，灵活的盒子，css3中引入的新的布局模式
+    align-items: center; //垂直居中
+    height: 80px;
+    background-color:  rgba(39, 136, 189, 0.548);
+    padding: 0px 0px 0px 30px;
+    box-shadow: 0 2px 3px rgba(85, 84, 84, 0.226);
+    img{
+        width: 40px;
+        height: 40px;       
+        margin:0 15px 5px 50px; 
+    }
+    h1{
+        font-size: 30px;
+        color: white;
+    }
+   } 
+   .login-content{
+    width: 270px;
+    height: 320px;
+    background-color: rgba(255, 253, 253, 0.863);
+    border-radius: 7px;
+    margin:60px auto;
+    padding: 20px 40px; //给父标签添加内边距，使得对内部的h2和form同时起作用
+
+    h2{
+        text-align: center;  //水平居中
+        font-size:26px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: rgba(44, 43, 43, 0.877);
+    }
+
+    .login-form{
+        .login-form-button{
+            width: 100%;
+        }
+    }
+   }
+}
